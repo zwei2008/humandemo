@@ -20,6 +20,8 @@ install -y --force-yes openssh-server
 
 cp -rf $TOP_DIR/tools/nkill /usr/bin/
 chmod +x /usr/bin/nkill
+#by zw
+chmod +x /usr/bin/nkill
 
 #---------------------------------------------
 # Set up iptables.
